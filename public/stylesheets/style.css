@@ -1,0 +1,29 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+nav{
+  background-color: #d0d0d0;
+  display: flex;
+}
+nav > img {
+  width: 40%;
+  height: auto;
+  display: inline-block;
+  align-self: center;
+}
+.links{
+  display: inline-block;
+  align-self: center;
+  padding-left: 20px;
+}
+.links > a{
+  color:white;
+  text-decoration: none;
+  display: inline;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  padding: 10px 0px;
+}
